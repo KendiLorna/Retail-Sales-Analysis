@@ -4,19 +4,19 @@
 #### Role: Data Analyst
 
 ## Table of Contents
-[Project Overview](#ProjectOverview)
+[Project Overview](#project-overview)
 
-[Business Questions](#BusinessQuestions)
+[Business Questions](#business-questions)
 
-[Process](#Process)
+[Process](#process)
 
-[Exploratory Data Analysis](#ExploratoryDataAnalysis)
+[Exploratory Data Analysis](#exploratory-data-analysis)
 
-[Dashboard](#Dashboard)
+[Dashboard](#novamart-sales-2019-dashboard)
 
-[Key Insights](#KeyInsights)
+[Insights](#key-insights)
 
-[Recommendations](#Recommendations)
+[Recommendations](#recommendations)
 
 ## Project Overview
 
@@ -162,7 +162,7 @@ I created a calendar table in PowerPivot and added it to the data model for slic
 
 <img width="1186" height="629" alt="Screenshot 2025-08-05 120244" src="https://github.com/user-attachments/assets/2a19c572-1fd8-4e45-b24c-d65db824c4d2" />
 
-### Exploratory Data Analysis (Excel)
+### Exploratory Data Analysis
 
 + A preliminary check using functions
 
@@ -189,6 +189,7 @@ Visuals included:
 ## Novamart Sales 2019 Dashboard
 
 <img width="1886" height="858" alt="Screenshot 2025-08-04 152140" src="https://github.com/user-attachments/assets/24bb8577-47dc-418b-91de-285a06f9ebd0" />
+
 ## Key Insights
 
 ### Overall metrics
