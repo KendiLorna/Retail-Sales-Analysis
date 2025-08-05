@@ -195,6 +195,8 @@ Visuals included:
 
 <img width="1886" height="858" alt="Screenshot 2025-08-04 152140" src="https://github.com/user-attachments/assets/24bb8577-47dc-418b-91de-285a06f9ebd0" />
 
+[Watch Interactive video here](https://youtu.be/uJ_1ZPsxNYA)
+
 ## Key Insights
 
 ### Overall metrics
