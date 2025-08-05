@@ -128,7 +128,8 @@ all_data.to_csv('Sales_2019.csv')
 I imported the csv file and transformed it in Power Query.
 
 I created new columns by splitting the purchase address column into City & State(due to similar cities in different states)and State.
-Street name and Zip code were not necessary for this analysis and were deleted.
+
+Street name and final Purchase address were not necessary for this analysis and were deleted.
 
 <img width="663" height="663" alt="Screenshot 2025-08-05 115724" src="https://github.com/user-attachments/assets/bdad3fd8-196c-4abf-bfe6-14fe21c540b7" />
 
