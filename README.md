@@ -14,7 +14,7 @@
 
 [Dashboard](#novamart-sales-2019-dashboard)
 
-[Insights](#key-insights)
+[Key Insights](#key-insights)
 
 [Recommendations](#recommendations)
 
@@ -93,12 +93,16 @@ all_data
 #### Changed incorrect data types.
 ``` python
 all_data['Quantity Ordered'] = pd.to_numeric(all_data['Quantity Ordered'])
+
 all_data['Price Each'] = all_data['Price Each'].astype('float')
+
 all_data['Order Date'] = pd.to_datetime(all_data['Order Date'], format = "%m/%d/%y %H:%M")
+
 all_data['Order ID'] = pd.to_numeric(all_data['Order ID'])
 ```
 ```python
 all_data.dtypes
+
 #new data types 
 Product                     object
 Quantity Ordered             int64
@@ -128,7 +132,7 @@ Street name and Zip code were not necessary for this analysis and were deleted.
 
 <img width="663" height="663" alt="Screenshot 2025-08-05 115724" src="https://github.com/user-attachments/assets/bdad3fd8-196c-4abf-bfe6-14fe21c540b7" />
 
-I further extracted day and month name,their correspomding day and month number, hour of day.
+I further extracted day and month name,their corresponding day and month number, hour of day.
 
 *Month*
 ```excel
@@ -249,13 +253,13 @@ Recovery starts in October
 - Other key contributors: New York, Georgia, Texas, Massachusetts
 
 ### Summary Insights
-•	Revenue peaked in December, driven by seasonal demand
+- Revenue peaked in December, driven by seasonal demand
 
-•	MacBook Pro led in revenue, while AAA batteries led in quantity sold
+- MacBook Pro led in revenue, while AAA batteries led in quantity sold
 
-•	Afternoons and Tuesdays were peak sales periods
+- Afternoons and Tuesdays were peak sales periods
 
-•	California was the top-performing state by a wide margin
+- California was the top-performing state by a wide margin
 ## Recommendations
 #### Focus on bestsellers
 Prioritize marketing and stock availability for:
