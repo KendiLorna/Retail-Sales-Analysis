@@ -20,8 +20,8 @@
 
 ## Project Overview
 
-I analyzed 2019 sales data for a fictional retail company, Novamart, to uncover trends, performance drivers, and regional insights.
-The goal was to answer the manager's business questions to inform strategic decision-making and identify opportunities for revenue growth and operational efficiency.
+I analyzed 2019 sales data for a fictional retail company, Novamart, to uncover trends, product performance, and regional insights.
+The goal was to answer the manager's business questions to inform strategic decision-making and identify opportunities for revenue growth and marketing optimization.
 
 ## Business Questions
 
