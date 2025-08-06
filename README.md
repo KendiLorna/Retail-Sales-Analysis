@@ -133,7 +133,7 @@ Street name and final Purchase address were not necessary for this analysis and 
 
 <img width="663" height="663" alt="Screenshot 2025-08-05 115724" src="https://github.com/user-attachments/assets/bdad3fd8-196c-4abf-bfe6-14fe21c540b7" />
 
-I further extracted day and month name,their corresponding day and month number, hour of day.
+Extracted day and month name, their corresponding day and month number, hour of day.
 
 *Month*
 ```excel
@@ -151,7 +151,7 @@ I further extracted day and month name,their corresponding day and month number,
 ```excel
 =HOUR([@[Order Date]])
 ```
-I further classified days as weekend or weekday and split the hours into morning, afternoon, evening and night.
+Classified days as weekend or weekday and split the hours into morning, afternoon, evening and night.
 
 *Classification into weekend/weekday*
 ```excel
@@ -163,7 +163,7 @@ I further classified days as weekend or weekday and split the hours into morning
 IF(AND([@[Hour of Day]]>=12,[@[Hour of Day]]<18),"Afternoon",
 IF(AND([@[Hour of Day]]>=18,[@[Hour of Day]]<24),"Evening","Night")))
 ```
-I created a calendar table in PowerPivot and added it to the data model for slicer sorting.
+Created a calendar table in PowerPivot and added it to the data model for slicer sorting.
 
 <img width="1186" height="629" alt="Screenshot 2025-08-05 120244" src="https://github.com/user-attachments/assets/2a19c572-1fd8-4e45-b24c-d65db824c4d2" />
 
