@@ -197,6 +197,8 @@ Visuals included:
 
 [Watch Interactive video here](https://youtu.be/uJ_1ZPsxNYA)
 
+[Find the Excel file here](https://docs.google.com/spreadsheets/d/1R0GFcQ_9Wp5ScYRITKrG7OuekQEsI9Ra/edit?usp=sharing&ouid=111304060839596602573&rtpof=true&sd=true)
+
 ## Key Insights
 
 ### Overall metrics
